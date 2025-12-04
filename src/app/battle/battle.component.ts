@@ -19,7 +19,7 @@ import {MatProgressSpinner} from '@angular/material/progress-spinner';
 
   ],
   templateUrl: './battle.component.html',
-  styleUrl: './battle.component.css',
+  styleUrl: './battle.component.scss',
 })
 export class BattleComponent {
 

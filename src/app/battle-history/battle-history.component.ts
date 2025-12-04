@@ -1,10 +1,16 @@
 import {Component, OnInit} from '@angular/core';
 import {MatFormField, MatInput, MatLabel} from '@angular/material/input';
 import {
-  MatCell, MatCellDef,
+  MatCell,
+  MatCellDef,
   MatColumnDef,
   MatHeaderCell,
-  MatHeaderCellDef, MatHeaderRow, MatHeaderRowDef, MatNoDataRow, MatRow, MatRowDef,
+  MatHeaderCellDef,
+  MatHeaderRow,
+  MatHeaderRowDef,
+  MatNoDataRow,
+  MatRow,
+  MatRowDef,
   MatTable,
   MatTableDataSource
 } from '@angular/material/table';
@@ -32,7 +38,7 @@ import {BattleDto} from '../battle/model/battle-dto.model';
     MatNoDataRow
   ],
   templateUrl: './battle-history.component.html',
-  styleUrl: './battle-history.component.css',
+  styleUrl: './battle-history.component.scss',
 })
 export class BattleHistoryComponent implements OnInit {
   displayedColumns: string[] = ['winnerName', 'winnerType', 'winnerPower', 'looserName', 'looserType', 'looserPower'];
